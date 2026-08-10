@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Govind Bhajane | BCA Graduate & Software Developer</title>
+  <meta name="description" content="Portfolio of Govind Bhajane, a BCA graduate and software/web developer focused on building practical digital solutions.">
+  <meta name="keywords" content="Govind Bhajane, BCA Graduate, Software Developer, Web Developer, Portfolio, PHP Developer, Karnataka">
+  <meta name="author" content="Govind Shrikant Bhajane">
+  <meta property="og:title" content="Govind Bhajane | BCA Graduate & Software Developer">
+  <meta property="og:description" content="Portfolio of Govind Bhajane, a BCA graduate and software/web developer focused on building practical digital solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9889;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="introScreen">
+  <div class="intro-terminal">
+    <div class="intro-bar">
+      <span class="intro-dot red"></span>
+      <span class="intro-dot yellow"></span>
+      <span class="intro-dot green"></span>
+      <span>govind@portfolio: ~</span>
+    </div>
+
+    <div class="intro-body">
+      <p>$ initializing portfolio...</p>
+      <p>$ loading projects...</p>
+      <p>$ loading skills...</p>
+      <p>$ checking services...</p>
+      <p>$ welcome, visitor 👋</p>
+      <span class="intro-cursor">█</span>
+    </div>
+  </div>
+</div>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__logo">GB<span class="navbar__logo-dot">.</span></a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#home" class="nav-link active-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--sm btn--primary navbar__cta">Let's Talk</a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+<section class="section" id="home">
+
+  <div class="hero__visual" id="heroVisual">
+
+    <div class="terminal" id="terminal">
+
+      <div class="terminal__bar">
+
+        <span class="terminal__dot terminal__dot--red"></span>
+        <span class="terminal__dot terminal__dot--yellow"></span>
+        <span class="terminal__dot terminal__dot--green"></span>
+
+        <span class="terminal__title">
+          govind@portfolio: ~
+        </span>
+
+        <button
+          class="terminal__toggle"
+          id="terminalToggle"
+          aria-label="Expand terminal"
+          type="button"
+        >
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+      </div>
+      <div class="terminal__body" id="terminalBody"></div>
+    </div>
+  </div>
+  <div class="hero__inner container">
+    <div class="hero__content">
+      <p class="eyebrow">
+        <span class="eyebrow__bracket"></span>
+        Welcome to my profile..
+      </p>
+
+      <h1 class="hero__title">
+        Hi, I'm<br>
+        <span class="text-gradient">
+          Govind Bhajane.
+        </span>
+      </h1>
+
+      <p class="hero__subtitle" id="typedRole">
+        BCA Graduate
+      </p>
+
+      <p class="hero__text">
+       Building practical web and software solutions that turn ideas into useful digital experiences.
+      </p>
+            <div class="hero__actions">
+
+        <a href="#about"
+           class="btn btn--primary">
+          About Me 
+        </a>
+
+      <div class="hero__actions">
+
+        <a href="#services"
+           class="btn btn--primary">
+          Explore My Services 
+        </a>
+
+        <a href="#contact"
+           class="btn btn--ghost">
+          Let's Connect
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+   </div>
+    </div>
+
+    <div class="hero__scroll-wrapper">
+      <a href="#about"
+         class="hero__scroll"
+         aria-label="Scroll to About section">
+        <span></span>
+      </a>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section__title reveal">About Me</h2>
+  
+    <img 
+        src="ProfileP.jpg"
+        alt="Govind Bhajane"
+        class="about__photo"
+    >
+      <div class="about__text reveal">
+        <p>
+          I'm a Bachelor of Computer Applications graduate (2025) from Rani Channamma
+          University, Belagavi, with a genuine interest in software development, web
+          development and data-related technologies. My focus during my degree has been on
+          understanding how applications are built end-to-end — from the logic on the server
+          to the interface a user actually interacts with.
+        </p>
+
+        <p>
+          I enjoy working across the stack: writing structured code in Java, Python and C,
+          building web interfaces with HTML, CSS and JavaScript, and connecting them to
+          databases using PHP and MySQL. I've applied this through academic and hackathon
+          projects, including a car rental management system and a MERN-based recruitment
+          concept, which gave me hands-on exposure to planning, building and refining a
+          working application.
+        </p>
+
+        <p>
+          I'm early in my career and still learning — but I approach every project with
+          curiosity, patience and a willingness to dig into problems until they're solved.
+          My goal is to build a strong, long-term career in the IT industry, and to keep
+          growing into emerging technologies as I gain more real-world experience.
+        </p>
+
+        <ul class="about__facts">
+
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i>
+            BCA, Rani Channamma University, Belagavi — 2025
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i>
+            Based in Karnataka, India
+          </li>
+          <li>
+            <i class="fa-solid fa-language"></i>
+            English, Hindi, Kannada, Marathi
+          </li>
+          <li>
+            <i class="fa-solid fa-bullseye"></i>
+            Focused on software &amp; web development
+          </li>
+        </ul>
+      </div>
+  <br>
+    <div class="about__stats reveal">
+
+      <div class="stat-card">
+
+        <span
+          class="stat-card__number"
+          data-count="3+"
+        >0</span>
+
+        <span class="stat-card__label">
+          Projects Built
+        </span>
+
+      </div>
+
+      <div class="stat-card">
+
+        <span
+          class="stat-card__number"
+          data-count="2"
+        >0</span>
+
+        <span class="stat-card__label">
+          Certifications
+        </span>
+
+      </div>
+
+      <div class="stat-card">
+
+        <span
+          class="stat-card__number"
+          data-count="4"
+        >0</span>
+
+        <span class="stat-card__label">
+          Languages Spoken
+        </span>
+
+      </div>
+      <div class="stat-card">
+
+        <span
+          class="stat-card__number"
+          data-count="2025"
+        >0</span>
+
+        <span class="stat-card__label">
+          Graduation Year
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title reveal">Technical Skills</h2>
+      <p class="section__subtitle reveal">Tools and languages I use to design, build and ship applications.</p>
+    
+      <div class="skills__grid">
+        <div class="skill-category reveal">
+          <div class="skill-category__head">
+            <i class="fa-solid fa-code"></i>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>C</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>Java</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>Python</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="75"></div></div>
+          </div>
+          </div>
+        <div class="skill-category reveal">
+          <div class="skill-category__head">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>HTML5</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>CSS3</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>JavaScript</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>Bootstrap</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>PHP</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category__head">
+            <i class="fa-solid fa-database"></i>
+            <h3>Database</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>MySQL</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-item__top"><span>SQL / SQL Plus</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-bar__fill" data-level="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category__head">
+            <i class="fa-solid fa-toolbox"></i>
+            <h3>Tools &amp; Technologies</h3>
+          </div>
+          <div class="tool-tags">
+            <span class="tool-tag"><i class="fa-brands fa-git-alt"></i> Git / GitHub</span>
+            <span class="tool-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="tool-tag"><i class="fa-solid fa-server"></i> XAMPP</span>
+            <span class="tool-tag"><i class="fa-brands fa-server"></i> Apache</span>
+            <span class="tool-tag"><i class="fa-solid fa-file-excel"></i> MS Excel</span>
+            <span class="tool-tag"><i class="fa-solid fa-file-powerpoint"></i> PowerPoint</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="education">
+    <div class="container">
+      <h2 class="section__title reveal">Education</h2>
+      <div class="timeline">
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <span class="timeline__badge">2025</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="timeline__org">Rani Channamma University, Belagavi</p>
+            <p class="timeline__desc">
+              Completed a comprehensive undergraduate program covering programming
+              fundamentals, web technologies, databases and software development principles.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+
+            <span class="timeline__badge">2022</span>
+            <h3>12th / Pre-University Course (PUC)</h3>
+            <p class="timeline__org">SGS Pu clg madhabhavi</p>
+            <p class="timeline__desc">
+              Completed pre-university education, building the foundation for higher studies
+              in computer applications.PCMB
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title reveal">Featured Projects</h2>
+      <p class="section__subtitle reveal">A few things I've built while learning and experimenting.</p>
+
+      <div class="projects__grid">
+
+        <article class="project-card reveal">
+          <div class="project-card__top">
+            <i class="fa-solid fa-car"></i>
+          </div>
+          <div class="project-card__body">
+            <h3>Online Car Rental System</h3>
+            <p class="project-card__desc">
+              A web-based car rental management system designed to allow users to explore
+              available cars and manage rental-related operations through an organized interface.
+            </p>
+            <ul class="project-card__features">
+              <li>Browse and search available cars</li>
+              <li>Organized admin-style management interface</li>
+              <li>Structured MySQL database for rentals</li>
+              <li>Dynamic pages powered by PHP</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>PHP</span><span>MySQL</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>XAMPP</span>
+            </div>
+          </div>
+          <div class="project-card__actions">
+            <a href="#" class="btn btn--sm btn--primary">View Project</a>
+            <a href="#" class="btn btn--sm btn--outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card__top">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <div class="project-card__body">
+            <h3>MindHack Magic</h3>
+            <p class="project-card__desc">
+              An interactive browser-based magic/number game designed to create an engaging
+              user experience using JavaScript logic and dynamic UI interactions.
+            </p>
+            <ul class="project-card__features">
+              <li>Custom JavaScript logic for number-based "mind reading"</li>
+              <li>Interactive, animated user interface</li>
+              <li>Fully client-side, no backend required</li>
+              <li>Lightweight and fast to load</li>
+            </ul>
+            <div class="project-card__tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-card__actions">
+            <a href="#" class="btn btn--sm btn--primary">View Project</a>
+            <a href="#" class="btn btn--sm btn--outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="certifications">
+    <div class="container">
+      <h2 class="section__title reveal">Certifications</h2>
+
+      <div class="cert__grid">
+        <div class="cert-card reveal">
+          <span class="cert-card__year">2024</span>
+          <i class="fa-brands fa-java cert-card__icon"></i>
+          <h3>Java Programming</h3>
+          <p>Great Learning</p>
+        </div>
+        <div class="cert-card reveal">
+          <span class="cert-card__year">2024</span>
+          <i class="fa-brands fa-python cert-card__icon"></i>
+          <h3>Python Programming</h3>
+          <p>Dhapps</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section__title reveal">What I Can Help With</h2>
+      <h3>Services</h3>
+      <div class="services__grid">
+        <div class="service-card reveal">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites built with HTML, CSS, JavaScript and PHP.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-store"></i>
+          <h3>Business Websites</h3>
+          <p>Professional websites for businesses, shops, brands and startups.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-display"></i>
+          <h3>Frontend Development</h3>
+          <p>Responsive and interactive user interfaces built with clean, structured code.</p>
+        </div>
+        <div class="service-card reveal">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <h3>Website Maintenance</h3>
+          <p>Updates, improvements and basic maintenance for existing websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt resume-section" id="resume">
+    <div class="container resume-section__inner reveal">
+      <div>
+        <h2 class="section__title">Want the full picture?</h2>
+        <p class="section__subtitle">Download my resume for a complete summary of my education, skills and experience.</p>
+      </div>
+      <a href="resume.pdf" class="btn btn--primary btn--lg" download>
+        <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+      </a>
+    </div>
+  </section>
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section__title reveal">Let's Connect</h2>
+      <p class="section__subtitle reveal">Have an opportunity or an idea? I'd love to hear about it.</p>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <a href="mailto:govindbhajane2004@gmail.com" class="contact__info-item">
+    <i class="fa-solid fa-envelope"></i>
+    <div>
+        <span>Email</span>
+        <p>govindbhajane2004@gmail.com</p>
+        </div>
+      </a>
+          <a href="tel:+917259818653" class="contact__info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>Phone</span>
+              <p>+91 7259818653</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/govind-bhajane" class="contact__info-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <span>LinkedIn</span>
+              <p>https://www.linkedin.com/in/govind-bhajane</p>
+            </div>
+          </a>
+          <a href="https://github.com/Govind-Bhajane" class="contact__info-item">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <span>GitHub</span>https://github.com/Govind-Bhajane</p>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/alone_rider_harsh?igsh=dmZmOG96eTYwdGx4" class="contact__info-item">
+            <i class="fa-brands fa-instagram"></i>
+            <div>
+              <span>Instagram</span>
+              <p>Alone_Rider_Harsh</p>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name">
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            <span class="form-error" id="subjectError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about your project or opportunity..."></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+          <p class="form-note" id="formNote">
+            Note: Curently working under prosses plz connect with given social media platformes.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="navbar__logo">GB<span class="navbar__logo-dot">.</span></a>
+        <p>Building ideas into digital experiences.</p>
+      </div>
+      
+    <p>
+      <b>🚧 Development Notice:</b> This portfolio is currently under development. Some sections, projects, and features may be updated or changed as improvements are made. New updates coming soon!
+    </p>
+    <p class="footer__copy">© 2026 Govind Bhajane. All Rights Reserved.</p>
+    
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
