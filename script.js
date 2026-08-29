@@ -119,7 +119,9 @@ window.addEventListener("load", function () {
     'BCA Graduate',
     'Software Developer',
     'Web Developer',
-    'Data & Technology Enthusiast'
+    'Data & Technology Enthusiast',
+    'Freelancer'
+    
   ];
   const typedEl = document.getElementById('typedRole');
   let roleIndex = 0;
@@ -166,16 +168,16 @@ const terminalLines = [
     output: "Govind Shrikant Bhajane"
   },
   {
-    command: "cat role.txt",
+    command: "about",
     output: "BCA Graduate | Software Developer | Web Developer"
   },
   {
-    command: "cat education.txt",
+    command: "education",
     output: "BCA — Rani Channamma University, Belagavi (2025)"
   },
   {
-    command: "cat skills.txt",
-    output: "Java · Python · PHP · JavaScript · MySQL"
+    command: "skills",
+    output: "Java · Python · PHP · JavaScript · MySQL · HTML5 · CSS3"
   },
   {
     command: "status",
